@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --grey: rgb(75 85 99/ 0.8);
+  --secondgrey: rgb(55 65 81 / 0.4);
+  --bluee: #409eff;
+  --green: rgb(131, 184, 26);
+  --border-color: #dcdfe6;
+  --border-card: #e4e7ed;
+  --blue: rgb(29, 57, 173);
+  --orange: rgb(255, 105, 0);
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 5rem;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--bluee);
+  border-radius: 5rem;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
